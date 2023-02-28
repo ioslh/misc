@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chrome Crash Case</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .scrollable {
+            height: 200vh;
+            background-image: linear-gradient(to bottom,  #666,  #fff);
+        }
+        .header {
+            background-color: #eee;
+            height: 50px;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="header">HEADER</div>
+        </div>
+        <div class="scrollable">
+            Open Chrome DevTool<br/>
+            Switch to the Layers panel<br/>
+            And see if this page crashes
+        </div>
+    </div>
+</body>
+</html>
